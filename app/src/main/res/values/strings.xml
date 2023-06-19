@@ -8,4 +8,8 @@
     <string name="score">Score:</string>
     <string name="profile_creating_message">Your profile has been creating!</string>
     <string name="title_random_number">Random between 0 і %1d</string>
+    <string name="title_profile">Select profile color</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
 </resources>

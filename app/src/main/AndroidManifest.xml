@@ -24,6 +24,9 @@
         android:theme="@style/Theme.CRMAppAndroid"
         tools:targetApi="31">
         <activity
+            android:name="com.example.crmappandroid.ThirdActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.crmappandroid.SecondActivity"
             android:exported="false"
             android:theme="@style/Theme.CRMAppAndroid" />

@@ -19,9 +19,8 @@ class MainActivity : ComponentActivity() {
     }
 
     fun getProfile(view: View) {
-        val mess = getString(R.string.profile_creating_message)
-        val myToast = Toast.makeText(this, mess, Toast.LENGTH_SHORT)
-        myToast.show()
+        val profileIntent = Intent(this, ThirdActivity::class.java)
+        startActivity(profileIntent)
     }
 
     fun countMe (view: View) {
