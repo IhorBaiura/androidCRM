@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CRMAppAndroid</string>
+    <string name="greeting">Hello!</string>
+    <string name="message">in your personal CRM!</string>
+    <string name="profile_btn">profile</string>
+    <string name="statistics_btn">statistics</string>
+    <string name="messages_btn">message</string>
+    <string name="score">Score:</string>
+    <string name="profile_creating_message">Your profile has been creating!</string>
 </resources>
