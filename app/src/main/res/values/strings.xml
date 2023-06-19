@@ -7,4 +7,5 @@
     <string name="messages_btn">message</string>
     <string name="score">Score:</string>
     <string name="profile_creating_message">Your profile has been creating!</string>
+    <string name="title_random_number">Random between 0 і %1d</string>
 </resources>

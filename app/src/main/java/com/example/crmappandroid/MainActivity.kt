@@ -1,5 +1,6 @@
 package com.example.crmappandroid
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
@@ -32,6 +33,11 @@ class MainActivity : ComponentActivity() {
     }
 
     fun getMessage (view: View) {
+        val countString = textViewMessage.text.toString()
+        var count: Int = countString.toIntOrNull() ?: 0
+        val randomIntent = Intent(this, SecondActivity::class.java)
+        randomIntent.putExtra(SecondActivity.TOTAL_COUNT, count)
+        startActivity(randomIntent)
         textViewTitle.text = getString(R.string.greeting)
         textViewMessage.text = getString(R.string.message)
     }
